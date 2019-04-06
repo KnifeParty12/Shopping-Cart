@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/KnifeParty12/Shopping-Cart/issues"
   },
-  "homepage": "https://github.com/KnifeParty12/Shopping-Cart#readme"
+  "homepage": "https://github.com/KnifeParty12/Shopping-Cart#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.2.12"
+  }
 }
