@@ -23,7 +23,7 @@ route.post('/', (req,res)=>{
        name: req.body.name
     })
         .then((user)=>{
-            res.status(201).send(user)
+            res.status(201).send(user) //Send the user that we just created
         })
         .catch((err)=>{
             res.status(501).send({
