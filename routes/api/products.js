@@ -18,7 +18,7 @@ route.post('/',(req,res)=>{
 //Add a new Product
     if(isNaN(req.body.price)){
         return res.status(403).send({
-            error: "Pirce is not a valid number"
+            error: "Price is not a valid number"
         })
     }
     Product.create({

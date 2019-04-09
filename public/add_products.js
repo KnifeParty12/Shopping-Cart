@@ -9,7 +9,7 @@ $(function () {
             ProductManufacturer.val(),
             ProductPrice.val(),
             function (addedProduct) {
-                window.alert("Addded" + addedProduct.name + "to database")
+                window.alert("Added" + addedProduct.name + "to database")
             }
         )
     })
